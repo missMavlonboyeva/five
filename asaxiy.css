@@ -1,0 +1,406 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}   
+.alg{
+    font-style: 2.5rem;
+    position: fixed;
+    bottom: 10px;
+    right:0;
+    color: dodgerblue;
+    border: 4px solid dodgerblue;
+    padding: 6px;
+    border-radius: 50%;
+}
+body{
+min-height: 500vh;
+}
+.main{
+    width: 100%;
+    height: 800px;
+    background: #fff;
+}
+.nav__logo{
+    display: flex;
+    gap: 10px;
+    font-size: 1.5rem;
+    align-items: center;
+    color: crimson;
+}
+.navbar{
+    width: 100%;
+    height: 100px;
+    background-color: transparent;
+    border-bottom: 1px solid grey;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 10%;
+    gap: 40px;
+}
+.btn input{
+    border: 1px solid dodgerblue;
+height: 100%;
+width: 80%;
+padding-left: 12px;
+border-radius: 10px;
+}
+.btn{
+    width: 400px;
+    height: 36px;
+border: 2px solid dodgerblue;
+background-color: dodgerblue;
+color: #fff;
+display: flex;
+align-items: center;
+justify-content: space-between;
+border-radius: 10px;
+flex: 1;
+}
+.nav__collection{
+    font-size: 1rem;
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+.navbar i{
+    font-size: 1.5rem;
+}
+.categories{
+    width: 100%;
+height: 80px;
+border-bottom: 1px solid grey;
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+list-style: none;
+}
+.list{
+    display: flex;
+    gap: 10px;
+    color: dodgerblue;
+}
+.ads{
+    width: 100%;
+    height: 400px;
+    background: #e4d7d7;
+    display: flex;
+    padding: 0 5%;
+    justify-content: space-between;
+}
+.sofa{
+    width: 60%;
+    height: 100%;
+    background: url(./cofee2.jpg) no-repeat center/cover;
+    border-radius: 8px;
+}
+.comp{
+    width: 30%;
+    height: 100%;
+    background: url(./coffee1.jpg) no-repeat center/cover;
+    border-radius: 8px;
+}
+.text{
+    width: 55%;
+    height: 100%;
+    background: brown;
+    color: #fff;
+    text-align: center;
+    border-radius: 8px 0 0 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.disc{
+    width: 200px;
+    height: 40px;
+    text-transform: uppercase;
+    background-color: crimson;
+    color: #fff;
+    margin: 10px  auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: skew(-7deg);}
+.cost{
+    width: 130px;
+    height: 40px;
+    text-transform: uppercase;
+    background-color: crimson;
+    color: #fff;
+    margin: 250px 200px;
+    display: flex;
+    align-items: center;justify-content: center;
+    border-radius: 2px;
+}
+.current{
+    width: 100px;
+    height: 30px;
+    text-transform: uppercase;
+    background-color: limegreen;
+    color: #fff;
+    margin: 250px 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translateY(-310px);
+    border-radius: 2px;
+}
+.TV{
+    width: 100%;
+    min-height: 500px;
+    padding: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.advert{
+    width: 22%;
+    height: 48%;
+    box-shadow: 0 0 12px #000;
+    border-radius: 4px;
+    padding: 20px;
+}
+.imgbx{
+    width: 100%;
+    height:210px;
+    background: url(./tv.jpg) no-repeat center/cover;
+    position: relative;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.skidka{
+    width: 130px;
+    height: 40px;
+    text-transform: uppercase;
+    background-color: goldenrod;
+    color: #fff;
+    margin-left: 10px;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    border-radius: 12px;
+}
+.shop{
+    position: absolute;
+top: 10px;
+right: 10px;
+color: gold;
+}
+.heart{
+    position: absolute;
+top: 40px;
+right: 10px;
+color: #fff;
+}
+.icon{
+    font-size: 1.5rem;
+}
+.contentbx{
+    width: 100%;
+height: 210px;
+padding: 10px;
+
+}
+.contentbx i{
+    color: dodgerblue;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+.it i{
+    color: grey;
+    margin-right: 10px;
+}
+span{
+    color: grey;
+    margin-left: 10px;
+}
+.contentbx del{
+    color: purple;
+}
+.bton{
+    background-color: dodgerblue;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    padding: 15px 50px;
+    border: none;
+    border-radius: 7px;
+}
+.sub_footer{
+    width: 100%;
+    min-height: 500px;
+    background-color: transparent;
+}
+.nav{
+    margin-top: 20px;
+    width: 100%;
+    height: 250px;
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.middle{
+  width: 70%;
+  height: 150px;
+  background-color: #fff;  
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.content{
+    width: 25%;
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+.truck{
+    font-size: 4rem;
+    color: dodgerblue;
+}
+.title p{
+    color: grey;
+    font-size: 12px;
+}
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.information{
+    width: 20%;
+    height: 400px;
+}
+.bir{
+line-height: 2;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+padding: 29px;
+}
+.bir p{
+    color: grey;
+}
+.ikki{
+    display: flex;
+gap: 12px;
+    align-items: center;
+    flex-direction: column;
+    padding: 29px;
+}
+.icons{
+    display: flex;
+    gap: 20px;
+}
+.uch{
+    display: flex;
+justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;    
+}
+.tort{
+    padding: 15px;
+    padding-top: 29px;
+}
+.payme{
+    display: flex;
+    gap: 25px;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+.bill{
+    width: 35%;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 7px;
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.bill span{
+    border-radius: 0 20px 20px 0;
+    padding: 8;
+    background: dodgerblue;
+    color: #fff;
+    padding-right: 5px;
+}
+.visa{
+    color: dodgerblue;
+    font-weight: 900;
+}
+.red{
+    width: 20px;
+    height: 20px;
+border-radius: 50%;
+background-color: darkred;
+opacity: .4;
+position: absolute;
+z-index: 3;
+left: 19px;
+}
+.gold{
+    width: 20px;
+    height: 20px;
+border-radius: 50%;
+background-color: gold;
+opacity: .8;
+position: absolute;
+z-index: 4;
+}
+.rights{
+    text-align: center;
+    margin-top: 20px;
+    color: grey;
+    margin-bottom: 50px;
+}
+.tag{
+    width: 100%;
+    min-height: 200px;
+    padding: 40px;
+    line-height:1.5;
+}
+.tag input{
+    width: 100%;
+    height: 40px;
+    border: 1px solid darkgrey;
+    border-radius: 20px;
+    padding-left: 12px;
+}
+.p{
+    width: 15%;
+    color: grey;
+    line-height: 2;
+}
+.nav{
+    width: 100%;
+    height: 250px;
+    background-color: dodgerblue;
+}
+.col{
+    display: flex;
+    gap: 80px;
+    text-transform: uppercase;
+    list-style: none;
+    color: crimson;
+    font-weight: 900;
+}
+.middle{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
